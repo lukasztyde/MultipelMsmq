@@ -25,15 +25,15 @@ namespace NServiceBusDemo
             SetLoggingLibrary.Log4Net(log4net.Config.XmlConfigurator.Configure);
             Hashtable mapping = CreateMapping();
 
-            var appId = new Guid("cdaf96f4-7d57-4e91-ab7d-d1dbd6908e2c");
-            var thisMessageWasSentToSalesforce = false;
+            //var appId = new Guid("cdaf96f4-7d57-4e91-ab7d-d1dbd6908e2c");
+            //var thisMessageWasSentToSalesforce = false;
 
-            AddHandler<IBusinessApplicationAcceptedEvent>(
-                filter: x => x.ApplicationId == appId,
-                action: (x, bus) => thisMessageWasSentToSalesforce = true);
+            //AddHandler<IBusinessApplicationAcceptedEvent>(
+            //    filter: x => x.ApplicationId == appId,
+            //    action: (x, bus) => thisMessageWasSentToSalesforce = true);
 
-            AddReceiverBus("riskservice", typeof(GenericHandler));
-            AddReceiverBus("salesforce", typeof(GenericHandler));
+            AddReceiverBus("riskservice", typeof(UniversalMessagesHandler));
+            AddReceiverBus("salesforce", typeof(UniversalMessagesHandler));
 
             StructureMap.ObjectFactory.Inject(CreateSenderBus(mapping));
 
