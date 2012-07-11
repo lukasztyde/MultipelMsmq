@@ -1,0 +1,14 @@
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\bin\Debug\MultipleMsmq.exe.config
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\bin\Debug\MultipleMsmq.exe
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\bin\Debug\MultipleMsmq.pdb
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\bin\Debug\log4net.dll
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\bin\Debug\NServiceBus.Core.dll
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\bin\Debug\NServiceBus.dll
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\bin\Debug\Wonga.QA.Framework.Core.dll
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\bin\Debug\Wonga.QA.Framework.Msmq.dll
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\obj\x86\Debug\MultipleMsmq.exe
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\obj\x86\Debug\MultipleMsmq.pdb
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\bin\Debug\NServiceBus.ObjectBuilder.StructureMap262.dll
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\bin\Debug\StructureMap.dll
+C:\lukasz_traning_workspace\MultipleMsmq\MultipleMsmq\bin\Debug\Wonga.Risk.PublicMessages.dll
