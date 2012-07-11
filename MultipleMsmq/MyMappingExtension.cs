@@ -23,17 +23,6 @@ namespace MultipleMsmq
                { GetName(typeof(IMessage)), "IMessage" }
             };
 
-            foreach (Type type in messagesTypes)
-            {
-                try
-                {
-                    mapping.Add(GetName(type), "riskservice");
-                    //mapping.Add(GetName(type), "salesforce");
-                }
-                catch(Exception ex)
-                {
-                }
-            }
             return mapping;
         }
 

@@ -15,15 +15,6 @@ namespace MultipleMsmq
 
         public IBus Bus { get; set; }
 
-        //public void Handle(IMessage message)
-        //{
-        //    var relevantHandlers = _handlers.Where(x => x.IsFor(message)).ToList();
-        //    Console.WriteLine("#{0} Handlers found for this {1}", relevantHandlers.Count, message.GetType().Name);
-
-        //    relevantHandlers.ForEach(x => x.Handle(message, Bus));
-        //    _handlers.RemoveAll(x => x.IsFor(message));
-        //}
-
         public void Handle(T message)
         {
             var relevantHandlers = _handlers.Where(x => x.IsFor(message)).ToList();

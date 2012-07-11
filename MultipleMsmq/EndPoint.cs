@@ -18,9 +18,6 @@ namespace MultipleMsmq
         public void Start()
         {
             _configEndPoint = new MyConfigurationSource(_name);
-            //_configEndPoint.AddReceiverBus(_name, typeof(UniversalMessagesHandler));
-
-
         }
 
         public void AddHandler<T>(Action<T, IBus> action) where T : IMessage
